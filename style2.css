@@ -1,0 +1,35 @@
+.title_text{
+    background-color: dodgerblue;
+}
+.title_text h1{
+    margin-left: 2%;
+    font-size: 100px;
+    color: black;
+}
+.title_text h1 span{
+    margin-left: 0.5%;
+    font-size: 30px;
+    color: black;
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+img {
+    max-width: 300px;
+    max-height: 250px;
+    border: 5px solid #ababab;
+    border-radius: 5px;
+}
+
+.text h1{
+    font-size: 20px;
+}
+.text p ul{
+    font-size: 10px;
+}
+
