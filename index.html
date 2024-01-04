@@ -1,235 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE-edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tyler Baxter</title>
-		<link rel="stylesheet" href="style.css">
-		<script src="https://kit.fontawesome.com/43248940ba.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<div id="header">
-			<div class="container">
-				<nav>
-					<p class="logo">TJB</p>
-					<ul id="sidemenu">
-						<li><a href="#header">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#portfolio">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<i class="fa-solid fa-x" onclick="closemenu()"></i>
-					</ul>
-					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
-				</nav>
-				<div class="header-text">
-					<p>Computer Science Student</p>
-					<h1>Hello, My Name is <br><span>Tyler Baxter</span> from<br> Calfornia, USA</h1>
-				</div>
-			</div>
-		</div>
-<!-----------------------------------about------------------------------------>
-		<div id="about">
-			<div class="container">
-				<div class="row">
-					<div class="about-col-1">
-						<img src="images/self.png">
-					</div>
-					<div class="about-col-2">
-						<h1 class="sub-title">About Me</h1>
-						<p>I am a passionate third-year student at Cal Poly SLO pursuing a degree in computer science. My academic journey has ignited a deep fascination for various realms within technology, including software engineering, artificial intelligence, machine learning, and game design. I am driven by the belief that programming holds the power to transform and elevate our everyday experiences. As I eagerly anticipate the summer of 2024, I am actively seeking a full-time internship opportunity in California that aligns with my aspirations and offers a platform for me to contribute and learn in a dynamic tech environment.
-						</p>
-							<div class="tab-titles">
-								<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-								<p class="tab-links" onclick="opentab('education')">Education</p>
-								<p class="tab-links" onclick="opentab('experience')">Work History</p>
-								<p class="tab-links" onclick="opentab('volunteer')">Volunteer Work</p>
-							</div>
-							<div class="tab-contents active-tab" id="skills">
-								<ul>
-									<li><span>Programming Languages</span><br>C, Java, Python, HTML/CSS/JavaScript, RISC-V Assembly</li>
-									<li><span>Technologies</span><br>Git/Bash, Vim, Microsoft Office/Google Suite Applications</li>
-									<li><span>Personal Skills</span><br>Creative problem solving, Interpersonal communication, Adaptability</li>
-								</ul>
-							</div>
-							<div class="tab-contents" id="education">
-								<ul>
-									<li><span>California Polytechnic State University at San Luis Obispo</span><br>B.S. in Computer Science</li>
-									<li>
-										<span>Relevent Courses</span>
-										<ul>Systems Programming</ul>
-										<ul>Design and Analysis of Algorithms</ul>
-										<ul>Introduction to Software Engineering</ul>
-										<ul>Project-Based Object-Oriented Programming and Design</ul>
-										<ul>Data Structures</ul>
-									</li>
-								</ul>
-							</div>
-							<div class="tab-contents" id="experience">
-								<ul>
-									<li>
-										<span>Porkys Pizza Palace Pleasanton (Feb 2019 - May 2023)</span>
-										<ul>• Kitchen Staff, Delivery Driver</ul>
-										<ul>• Directed food station, trained new staff, and upheld order accuracy standards.</ul>
-										<ul>• Managed timely delivery of orders to customers, maintaining service excellence.</ul>
-										<ul>• Led and coordinated team efforts, ensuring smooth operations and customer satisfaction.</ul>
-									</li>
-									<li>
-										<span>The Club at Castlewood Private Golf Course (June 2023 - Present)</span>
-										<ul>• Player Services</ul>
-										<ul>• Greeted members, assisted with gear, and ensured a welcoming atmosphere.</ul>
-										<ul>• Managed player check-ins, maintaining event timelines and organized records.</ul>
-										<ul>• Supported course upkeep, optimized driving range, and ensured seamless opening/closing. </ul>
-									</li>
-								</ul>
-							</div>
-							<div class="tab-contents" id="volunteer">
-								<ul>
-									<li>
-										<span>Rainbow Acres</span>
-										<ul>• Interacted with residents, fostering a positive environment; led inclusive 200+ person prayers, promoting community spirit.</ul>
-										<ul>• Contributed to ranch upkeep by repainting emergency signs, houses, and curbs, enhancing safety and aesthetics.</ul>
-										<ul>• Spearheaded daytime initiatives, orchestrating tasks and team efforts for impactful improvements at Rainbow Acres.</ul>
-									</li>
-									<li>
-										<span>VBS</span>
-										<ul>• Oversaw 100+ children, prioritizing safety, enjoyment, and timely engagement in planned activities.</ul>
-										<ul>• Implemented personalized number system for parent pickups, ensuring secure transitions and streamlined scheduling.</ul>
-										<ul>• Managed VBS group dynamics, guaranteeing a structured and engaging experience while safeguarding children's well-being.</ul>
-									</li>
-								</ul>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-<!---------------------------------------projects---------------------------------------->
-		<div id="portfolio">
-			<div class="container">
-				<h1 class="sub-title">My Work</h1>
-				<div class="work-list">
-					<div class="work">
-						<img src="images/criblogo.png">
-						<div class="layer">
-							<h3>Crib</h3>
-							<p>
-								Crib is an innovative software engineering project designed to simplify and streamline 
-								household chore management among roommates. As the sole backend engineer on the project, I established a Rest 
-								API from the ground up using Node.js and Express.js A. Crib utilizes a cloud-based database to ensure 
-								seamless storage and retrieval of critical project data, and uses user authentication mechanisms, fortifying the platform's security and privacy features.
-							</p>
-							<a href="https://github.com/baxtertyler/Crib">
-								<i class="fa-solid fa-code"></i>
-							</a>
-						</div>
-					</div>
-					<div class="work">
-						<img src="images/worldsimchar.png">
-						<div class="layer">
-							<h3>The Endless World Simulation</h3>
-							<p>Developed in Java, the Infinite World Simulation depicts an endless simulation of
-								numerous interactive entities that exhibit behavioral changes based on both entity
-								and player-controlled events, enhanced with an integrated A-star pathing strategy.
-								This program follows an object-oriented style of programming with an emphasis on
-								inheritance and abstract classes.  </p>
-							<a href="https://github.com/baxtertyler/CSC203-ProjectVirtualWorldSim">
-								<i class="fa-solid fa-code"></i>
-							</a>
-						</div>
-					</div>
-					<div class="work">
-						<img src="images/spimlogo.png">
-						<div class="layer">
-							<h3>SPIM Emulator</h3>
-							<p>A comprehensive SPIM emulator crafted in Java for executing MIPS assembly code. 
-								Users can dynamically navigate the program, choosing to step through lines, run 
-								specific segments, or execute the entire code. Inspection of memory and register 
-								values is available at any point, and users can terminate the program or reset the 
-								register state. Advanced enhancements introduced a pipeline and branch predictor
-								with precise addition of stalls and squashes as needed.
-							</p>
-							<a href="https://github.com/baxtertyler/SPIM_emulator">
-								<i class="fa-solid fa-code"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<a href="projects.html" class="btn">Learn More About Projects</a>
-			</div>
-		</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tyler Baxter</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/43248940ba.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <p class="logo">TJB</p>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Computer Science Student</p>
+                    <h1>
+                        Hello, My Name is <br /><span>Tyler Baxter</span>
+                        from<br />
+                        Calfornia, USA
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------about------------------------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/self.png" />
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am a passionate third-year student at Cal Poly SLO
+                            pursuing a degree in computer science. My academic
+                            journey has ignited a deep fascination for various
+                            realms within technology, including software
+                            engineering, artificial intelligence, machine
+                            learning, and game design. I am driven by the belief
+                            that programming holds the power to transform and
+                            elevate our everyday experiences. As I eagerly
+                            anticipate the summer of 2024, I am actively seeking
+                            a full-time internship opportunity in California
+                            that aligns with my aspirations and offers a
+                            platform for me to contribute and learn in a dynamic
+                            tech environment.
+                        </p>
+                        <div class="tab-titles">
+                            <p
+                                class="tab-links active-link"
+                                onclick="opentab('skills')"
+                            >
+                                Skills
+                            </p>
+                            <p class="tab-links" onclick="opentab('education')">
+                                Education
+                            </p>
+                            <p
+                                class="tab-links"
+                                onclick="opentab('experience')"
+                            >
+                                Work History
+                            </p>
+                            <p class="tab-links" onclick="opentab('volunteer')">
+                                Volunteer Work
+                            </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Programming Languages</span><br />C,
+                                    Java, Python, HTML/CSS/JavaScript, RISC-V
+                                    Assembly
+                                </li>
+                                <li>
+                                    <span>Technologies</span><br />Git/Bash,
+                                    Vim, Microsoft Office/Google Suite
+                                    Applications
+                                </li>
+                                <li>
+                                    <span>Personal Skills</span><br />Creative
+                                    problem solving, Interpersonal
+                                    communication, Adaptability
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span
+                                        >California Polytechnic State University
+                                        at San Luis Obispo</span
+                                    ><br />B.S. in Computer Science
+                                </li>
+                                <li>
+                                    <span>Relevent Courses</span>
+                                    <ul>
+                                        Systems Programming
+                                    </ul>
+                                    <ul>
+                                        Design and Analysis of Algorithms
+                                    </ul>
+                                    <ul>
+                                        Introduction to Software Engineering
+                                    </ul>
+                                    <ul>
+                                        Project-Based Object-Oriented
+                                        Programming and Design
+                                    </ul>
+                                    <ul>
+                                        Data Structures
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>Food Drops (Dec 2023 - Present)</span>
+                                    <ul>
+                                        • Software Engineer
+                                    </ul>
+                                    <ul>
+                                        • Spearheaded end-to-end development of
+                                        a dynamic web application by leading a
+                                        cross-functional team.
+                                    </ul>
+                                    <ul>
+                                        • Employed MongoDB for database
+                                        management, React for front-end
+                                        development, and Express.js/Node.js for
+                                        backend scripting, ensuring seamless
+                                        integration and optimal user experience.
+                                    </ul>
+                                    <ul>
+                                        • Took charge of the UI/UX design using
+                                        Figma, fostering a cohesive and visually
+                                        appealing user interface. Collaborated
+                                        closely with team members to ensure a
+                                        harmonious blend of design and
+                                        functionality, resulting in a robust and
+                                        user-friendly web application.
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span
+                                        >Cal Poly ISA (Jan 2024 - Present)</span
+                                    >
+                                    <ul>
+                                        • Instructional Student Assitant
+                                    </ul>
+                                    <ul>
+                                        • Provided invaluable support to
+                                        students in computer science lab classes
+                                        by offering guidance on coding queries,
+                                        assisting with debugging, grading
+                                        assignments, and answering technical
+                                        questions.
+                                    </ul>
+                                    <ul>
+                                        • Assumed responsibility for grading
+                                        assignments, evaluating code
+                                        submissions, and providing constructive
+                                        feedback to students.
+                                    </ul>
+                                    <ul>
+                                        • Contributed to the overall educational
+                                        process by ensuring accurate assessment
+                                        and timely communication of feedback,
+                                        fostering a positive and collaborative
+                                        learning environment
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span
+                                        >The Club at Castlewood Private Golf
+                                        Course (June 2023 - Dec 2023)</span
+                                    >
+                                    <ul>
+                                        • Player Services
+                                    </ul>
+                                    <ul>
+                                        • Greeted members, assisted with gear,
+                                        and ensured a welcoming atmosphere.
+                                    </ul>
+                                    <ul>
+                                        • Managed player check-ins, maintaining
+                                        event timelines and organized records.
+                                    </ul>
+                                    <ul>
+                                        • Supported course upkeep, optimized
+                                        driving range, and ensured seamless
+                                        opening/closing.
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span
+                                        >Porkys Pizza Palace Pleasanton (Feb
+                                        2019 - May 2023)</span
+                                    >
+                                    <ul>
+                                        • Kitchen Staff, Delivery Driver
+                                    </ul>
+                                    <ul>
+                                        • Directed food station, trained new
+                                        staff, and upheld order accuracy
+                                        standards.
+                                    </ul>
+                                    <ul>
+                                        • Managed timely delivery of orders to
+                                        customers, maintaining service
+                                        excellence.
+                                    </ul>
+                                    <ul>
+                                        • Led and coordinated team efforts,
+                                        ensuring smooth operations and customer
+                                        satisfaction.
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="volunteer">
+                            <ul>
+                                <li>
+                                    <span>Rainbow Acres</span>
+                                    <ul>
+                                        • Interacted with residents, fostering a
+                                        positive environment; led inclusive 200+
+                                        person prayers, promoting community
+                                        spirit.
+                                    </ul>
+                                    <ul>
+                                        • Contributed to ranch upkeep by
+                                        repainting emergency signs, houses, and
+                                        curbs, enhancing safety and aesthetics.
+                                    </ul>
+                                    <ul>
+                                        • Spearheaded daytime initiatives,
+                                        orchestrating tasks and team efforts for
+                                        impactful improvements at Rainbow Acres.
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>VBS</span>
+                                    <ul>
+                                        • Oversaw 100+ children, prioritizing
+                                        safety, enjoyment, and timely engagement
+                                        in planned activities.
+                                    </ul>
+                                    <ul>
+                                        • Implemented personalized number system
+                                        for parent pickups, ensuring secure
+                                        transitions and streamlined scheduling.
+                                    </ul>
+                                    <ul>
+                                        • Managed VBS group dynamics,
+                                        guaranteeing a structured and engaging
+                                        experience while safeguarding children's
+                                        well-being.
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------projects---------------------------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/criblogo.png" />
+                        <div class="layer">
+                            <h3>Crib</h3>
+                            <p>
+                                Crib is an innovative software engineering
+                                project designed to simplify and streamline
+                                household chore management among roommates. As
+                                the sole backend engineer on the project, I
+                                established a Rest API from the ground up using
+                                Node.js and Express.js A. Crib utilizes a
+                                cloud-based database to ensure seamless storage
+                                and retrieval of critical project data, and uses
+                                user authentication mechanisms, fortifying the
+                                platform's security and privacy features.
+                            </p>
+                            <a href="https://github.com/lukewaltz/crib_project">
+                                <i class="fa-solid fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/worldsimchar.png" />
+                        <div class="layer">
+                            <h3>The Endless World Simulation</h3>
+                            <p>
+                                Developed in Java, the Infinite World Simulation
+                                depicts an endless simulation of numerous
+                                interactive entities that exhibit behavioral
+                                changes based on both entity and
+                                player-controlled events, enhanced with an
+                                integrated A-star pathing strategy. This program
+                                follows an object-oriented style of programming
+                                with an emphasis on inheritance and abstract
+                                classes.
+                            </p>
+                            <a
+                                href="https://github.com/baxtertyler/CSC203-ProjectVirtualWorldSim"
+                            >
+                                <i class="fa-solid fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/spimlogo.png" />
+                        <div class="layer">
+                            <h3>SPIM Emulator</h3>
+                            <p>
+                                A comprehensive SPIM emulator crafted in Java
+                                for executing MIPS assembly code. Users can
+                                dynamically navigate the program, choosing to
+                                step through lines, run specific segments, or
+                                execute the entire code. Inspection of memory
+                                and register values is available at any point,
+                                and users can terminate the program or reset the
+                                register state. Advanced enhancements introduced
+                                a pipeline and branch predictor with precise
+                                addition of stalls and squashes as needed.
+                            </p>
+                            <a
+                                href="https://github.com/baxtertyler/SPIM_emulator"
+                            >
+                                <i class="fa-solid fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="projects.html" class="btn"
+                    >Learn More About Projects</a
+                >
+            </div>
+        </div>
 
-		<!-----------------------contact------------------------>
-		<div id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="contact-left">
-						<h1 class="sub-title">Contact Me</h1>
-						<p><i class="fa-solid fa-envelope" style="color: #458ef7;"></i>tybaxter@calpoly.edu</p>
-						<p><i class="fa-solid fa-phone" style="color: #458ef7;"></i>925-337-7983</p>
-						<div class="social-icons">
-							<a href="https://github.com/baxtertyler?tab=repositories"><i class="fa-brands fa-github"></i></a>
-							<a href="https://www.linkedin.com/in/tylerbaxter/"><i class="fa-brands fa-linkedin"></i></a>
-						</div>
-						<a href="tybaxter_resumePDF.pdf" download class="btn btn2">Download CV</a>
-					</div>
-					<div class="contact-right">
-						<form name="submit-to-google-sheet">
-							<input type="text" name="Name" placeholder="Your Name" required>
-							<input type="email" name="Email" placeholder="Your Email" required>
-							<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-							<button type="submit" class="btn btn2">Submit</button>
-						</form>
-						<span id="msg"></span>
-					</div>
-				</div>
-			</div>
-			<div class="copyright">
-				<p>Partial Code taken from @Kevin. of GreatStack</p>
-			</div>
-		</div>
+        <!-----------------------contact------------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>
+                            <i
+                                class="fa-solid fa-envelope"
+                                style="color: #458ef7"
+                            ></i
+                            >tybaxter@calpoly.edu
+                        </p>
+                        <p>
+                            <i
+                                class="fa-solid fa-phone"
+                                style="color: #458ef7"
+                            ></i
+                            >925-337-7983
+                        </p>
+                        <div class="social-icons">
+                            <a
+                                href="https://github.com/baxtertyler?tab=repositories"
+                                ><i class="fa-brands fa-github"></i
+                            ></a>
+                            <a href="https://www.linkedin.com/in/tylerbaxter/"
+                                ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                        </div>
+                        <a
+                            href="tybaxter_resumePDF.pdf"
+                            download
+                            class="btn btn2"
+                            >Download CV</a
+                        >
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input
+                                type="text"
+                                name="Name"
+                                placeholder="Your Name"
+                                required
+                            />
+                            <input
+                                type="email"
+                                name="Email"
+                                placeholder="Your Email"
+                                required
+                            />
+                            <textarea
+                                name="Message"
+                                rows="6"
+                                placeholder="Your Message"
+                            ></textarea>
+                            <button type="submit" class="btn btn2">
+                                Submit
+                            </button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Partial Code taken from @Kevin. of GreatStack</p>
+            </div>
+        </div>
 
-		<script>
-			var tablinks = document.getElementsByClassName("tab-links");
-			var tabcontents = document.getElementsByClassName("tab-contents");
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
 
-			function opentab(tabname) {
-				for(tablink of tablinks) {
-					tablink.classList.remove("active-link");
-				}
-				for(tabcontent of tabcontents) {
-					tabcontent.classList.remove("active-tab");
-				}
-				event.currentTarget.classList.add("active-link");
-				document.getElementById(tabname).classList.add("active-tab");
-			}
-		</script>
-		<script>
-			var sidemenu = document.getElementById("sidemenu")
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
 
-			function openmenu(){
-				sidemenu.style.right = "0";
-			}
-			function closemenu(){
-				sidemenu.style.right = "-200px";
-			}
-		</script>
-		<script>
-			const scriptURL = 'https://script.google.com/macros/s/AKfycbzh7trivppDSyuYsvd1vOMUk9kWhJj1wD-VSlkjp1XZ0tn9_OpLi_d2Ce0NQuhP7GO1/exec'
-			const form = document.forms['submit-to-google-sheet']
-			const msg = document.getElementById("msg")
-		  
-			form.addEventListener('submit', e => {
-			  e.preventDefault()
-			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-				.then(response => {
-					msg.innerHTML = "Message sent succcessfully"
-					setTimeout(function(){
-						msg.innerHTML = ""
-					}, 5000)
-					form.reset()
-				})
-				.catch(error => console.error('Error!', error.message))
-			})
-		  </script>
-	</body>
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL =
+                "https://script.google.com/macros/s/AKfycbzh7trivppDSyuYsvd1vOMUk9kWhJj1wD-VSlkjp1XZ0tn9_OpLi_d2Ce0NQuhP7GO1/exec";
+            const form = document.forms["submit-to-google-sheet"];
+            const msg = document.getElementById("msg");
+
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+                fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                    .then((response) => {
+                        msg.innerHTML = "Message sent succcessfully";
+                        setTimeout(function () {
+                            msg.innerHTML = "";
+                        }, 5000);
+                        form.reset();
+                    })
+                    .catch((error) => console.error("Error!", error.message));
+            });
+        </script>
+    </body>
 </html>
