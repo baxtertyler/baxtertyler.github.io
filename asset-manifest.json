@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df5daa5d.css",
+    "main.js": "/static/js/main.cfa3fe58.js",
+    "static/media/hd.jpg": "/static/media/hd.45b2aa697b0d7fac5424.jpg",
+    "static/media/tm.jpg": "/static/media/tm.e98f7a2656bf67fcf489.jpg",
+    "static/media/pfp.jpg": "/static/media/pfp.cc269fc0b13f95fdf6f1.jpg",
+    "static/media/tylerbaxter-resume-2025-1.pdf": "/static/media/tylerbaxter-resume-2025-1.eef49ecb682487ecb511.pdf",
+    "static/media/ongawa.jpg": "/static/media/ongawa.2f9d0115088067348ae2.jpg",
+    "index.html": "/index.html",
+    "main.df5daa5d.css.map": "/static/css/main.df5daa5d.css.map",
+    "main.cfa3fe58.js.map": "/static/js/main.cfa3fe58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df5daa5d.css",
+    "static/js/main.cfa3fe58.js"
+  ]
+}
