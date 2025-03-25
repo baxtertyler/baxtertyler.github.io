@@ -1,0 +1,39 @@
+.project {
+    border: 5px solid white;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: backdrop-filter 0.3s ease, background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.project:hover {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.project:hover .overlay-text {
+    opacity: 1;
+}
+
+.project:hover .old-text {
+    opacity: 0;
+}
+
+.overlay-text {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.old-text {
+    transition: opacity 0.3s ease;
+}

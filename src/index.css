@@ -1,0 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(44, 85, 65);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
