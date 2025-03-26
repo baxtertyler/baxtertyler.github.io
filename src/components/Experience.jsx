@@ -43,7 +43,7 @@ const config = [
         role: [
             "Project-Based Object-Oriented Programming (Java), Introduction to Computing (Python)",
             "Mentor to over 200 students, guiding complex solutions to both computer-science and a variety of non-technical majors",
-            "Coordinated lab periods, answered technical questions, led debugging sessions, and graded student projects",
+            "Coordinated lab periods, answered technical questions, led debugging sessions, and graded student projects to ensure understanding of course material",
             "Held resume workshops and course planning sessions to enhance students’ academic and career success",
             "Conducted optional 1 on 1 meetings for students needing additional support",
         ],
@@ -75,7 +75,8 @@ const Experience = () => {
                 </p>
                 <Box
                     sx={{
-                        width: { xs: "90%", sm: "90%", md: "60%" },
+                        minWidth: { xs: "90%", sm: "90%", md: "60%" },
+                        maxWidth: { xs: "90%", sm: "90%", md: "60%" },
                         display: "flex",
                         flexDirection: "column",
                         gap: 10,
@@ -120,8 +121,9 @@ const Experience = () => {
                                 sx={{
                                     display: "flex",
                                     gap: 2,
+                                    width: "100%",
                                     alignItems: "center",
-                                    justifyContent: "center",
+                                    justifyContent: "left",
                                     paddingTop: 2,
                                     flexDirection: {
                                         xs: "column",

@@ -6,17 +6,18 @@ import Projects from "./components/projects/Projects";
 import Contacts from "./components/Contacts";
 import Home from "./components/Home";
 import Box from "@mui/material/Box";
+import HomePage from "./HomePage";
+import Gallery from "./Gallery";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
     return (
-        <Box sx={{ overflowX: "hidden" }}>
-            <Nav />
-            <Home />
-            <About />
-            <Experience />
-            <Projects />
-            <Contacts />
-        </Box>
+        <Router>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/gallery" element={<Gallery />} />
+            </Routes>
+        </Router>
     );
 };
 

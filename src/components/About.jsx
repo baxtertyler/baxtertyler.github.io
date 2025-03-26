@@ -118,6 +118,61 @@ const About = () => {
                     </div>
                 </Box>
             </Box>
+            <Box
+                sx={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    paddingTop: 5,
+                    paddingBottom: 10,
+                    backgroundColor: "rgb(37, 72, 55)",
+                }}
+            >
+                <p
+                    style={{
+                        fontSize: 40,
+                        color: "white",
+                        fontWeight: "bold",
+                        textAlign: "center",
+                    }}
+                >
+                    TECHNOLOGY STACK
+                </p>
+                <Box
+                    sx={{
+                        width: { xs: "90%", sm: "80%", md: "50%" },
+                        display: "flex",
+                        flexDirection: {
+                            xs: "column",
+                            sm: "column",
+                            md: "row",
+                        },
+                    }}
+                >
+                    <div
+                        style={{
+                            flex: 3,
+                            color: "white",
+                            padding: 10,
+                            fontSize: 18,
+                        }}
+                    >
+                        <h2>Languages</h2>
+                        <p>
+                            Python, Java, C, C++, JavaScript, TypeScript, HTML,
+                            CSS, Kotlin, SQL, R, Racket
+                        </p>
+                        <h2>Technologies</h2>
+                        <p>
+                            React, Node-JS, Next-JS, Vite, React Native, Expo,
+                            tRPC, Cloudflare, Express-JS, MongoDB, Git,
+                            Linux/Unix, Jest, Vitest, Hadoop, AWS, Amplify,
+                            Cognito, DynamoDB, Firebase, Android Studio, XML
+                        </p>
+                    </div>
+                </Box>
+            </Box>
         </section>
     );
 };

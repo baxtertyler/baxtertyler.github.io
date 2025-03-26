@@ -1,18 +1,46 @@
 {
   "files": {
     "main.css": "/static/css/main.df5daa5d.css",
-    "main.js": "/static/js/main.cfa3fe58.js",
+    "main.js": "/static/js/main.b2eddb3b.js",
     "static/media/hd.jpg": "/static/media/hd.45b2aa697b0d7fac5424.jpg",
+    "static/media/japanesegarden.jpg": "/static/media/japanesegarden.d68ffff80ea4d5ea2ec3.jpg",
+    "static/media/dublinranch.jpg": "/static/media/dublinranch.70c0b3e2b9d3223f8eee.jpg",
+    "static/media/halfdome.jpg": "/static/media/halfdome.d2edd50132eb7712ae3c.jpg",
+    "static/media/kenya2.jpg": "/static/media/kenya2.6217276e5c392f86bfd0.jpg",
+    "static/media/morrogolf.jpg": "/static/media/morrogolf.3ea432693da719a33948.jpg",
+    "static/media/sb.jpg": "/static/media/sb.447f57dae6e697f8917d.jpg",
+    "static/media/dog.jpg": "/static/media/dog.be6eea98c4826304da98.jpg",
+    "static/media/p.jpg": "/static/media/p.417ee8c0f5c0d445687c.jpg",
+    "static/media/sd.jpg": "/static/media/sd.d3b0ee6f714702049ab3.jpg",
+    "static/media/pismo1.jpg": "/static/media/pismo1.20d8eb13fca3804c0f7c.jpg",
+    "static/media/yosemite.jpg": "/static/media/yosemite.ae2f7b0441638eeaa0f1.jpg",
     "static/media/tm.jpg": "/static/media/tm.e98f7a2656bf67fcf489.jpg",
+    "static/media/tough.jpg": "/static/media/tough.e98f7a2656bf67fcf489.jpg",
+    "static/media/chalkmountain.jpg": "/static/media/chalkmountain.bfceaccdc603ceb73c84.jpg",
+    "static/media/albert.jpg": "/static/media/albert.923f68a5d6752d7469b3.jpg",
+    "static/media/pismo2.jpg": "/static/media/pismo2.6aafc9dd0b01ae8ef32a.jpg",
+    "static/media/bishops1.jpg": "/static/media/bishops1.b89b5eb07a912c9ae3d5.jpg",
+    "static/media/bishops2.jpg": "/static/media/bishops2.7d54e6e6719333949a73.jpg",
+    "static/media/morro.jpg": "/static/media/morro.dcd4cd6e90bbfe80d179.jpg",
+    "static/media/madonna.jpg": "/static/media/madonna.5ab23ce45c5251f001a7.jpg",
+    "static/media/pcv.jpg": "/static/media/pcv.2bd64561d3ea1c61beea.jpg",
     "static/media/pfp.jpg": "/static/media/pfp.cc269fc0b13f95fdf6f1.jpg",
+    "static/media/magic.jpg": "/static/media/magic.e78a690dc7a2264a963b.jpg",
+    "static/media/surf.jpg": "/static/media/surf.088adaf37076510a81ea.jpg",
+    "static/media/monterey.jpg": "/static/media/monterey.57e20771f65a5d9554e6.jpg",
+    "static/media/kenya1.jpg": "/static/media/kenya1.df99c7dd8bcf03898b3f.jpg",
+    "static/media/soccer.jpg": "/static/media/soccer.c86cc6847339a0484b44.jpg",
+    "static/media/fhs.jpg": "/static/media/fhs.977ea5e1c2162124c285.jpg",
+    "static/media/halloween.jpg": "/static/media/halloween.cb35fe2705391a667820.jpg",
+    "static/media/kenya3.jpg": "/static/media/kenya3.13693666672c964fc23e.jpg",
     "static/media/tylerbaxter-resume-2025-1.pdf": "/static/media/tylerbaxter-resume-2025-1.eef49ecb682487ecb511.pdf",
     "static/media/ongawa.jpg": "/static/media/ongawa.2f9d0115088067348ae2.jpg",
     "index.html": "/index.html",
     "main.df5daa5d.css.map": "/static/css/main.df5daa5d.css.map",
-    "main.cfa3fe58.js.map": "/static/js/main.cfa3fe58.js.map"
+    "main.b2eddb3b.js.map": "/static/js/main.b2eddb3b.js.map"
   },
   "entrypoints": [
     "static/css/main.df5daa5d.css",
-    "static/js/main.cfa3fe58.js"
+    "static/js/main.b2eddb3b.js"
   ]
 }

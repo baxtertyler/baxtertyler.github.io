@@ -1,9 +1,11 @@
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsFileEarmarkMedical } from "react-icons/bs";
+import { FaPhotoVideo } from "react-icons/fa";
 import CV from "../assets/tylerbaxter-resume-2025-1.pdf";
 import pfp from "../assets/pfp.jpg";
 import Box from "@mui/material/Box";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -54,6 +56,11 @@ const Home = () => {
                             style={{ fontSize: 30, color: "white" }}
                         />
                     </a>
+                    <Link to="/gallery" className="btn">
+                        <FaPhotoVideo
+                            style={{ fontSize: 30, color: "white" }}
+                        />
+                    </Link>
                 </div>
                 <Box
                     sx={{
